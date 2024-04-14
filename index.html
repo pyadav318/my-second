@@ -6,8 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="box">
-            Box1
+    <div class="box" aria-describedby="title">
+        <h1>Hello</h1>
+        <div class="child-box">
+            <p>this is child </p>
+        </div>
     </div>
+    <script>
+        let box=document.querySelector(".box")
+        console.log(box.attribute);
+    </script>
 </body>
-</html>
+</html>s
+ 
